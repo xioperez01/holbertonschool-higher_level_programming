@@ -6,8 +6,7 @@ Python’s elegant syntax and dynamic typing,
 together with its interpreted nature, make it an ideal language for scripting
 and rapid application development in many areas on most platforms.
 ## Environment ##
-Languages: Python3.4.3, MySQL, SQLAlchemy, Javascript ES6, Node.js
-OS: Ubuntu 14.04 LTS
+* Languages: Python3.4.3
+* OS: Ubuntu 14.04 LTS
 ## Autors ##
  Angie Pérez [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/xiommyperez)
- 
