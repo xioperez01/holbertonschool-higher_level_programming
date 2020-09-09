@@ -7,6 +7,6 @@ def divisible_by_2(my_list=[]):
             new.append(True)
         else:
             new.append(False)
-        i+= 1
+        i += 1
 
     return new
