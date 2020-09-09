@@ -6,5 +6,5 @@ def no_c(my_string):
             if i == 'c' or i == 'C':
                 aux.remove(i)
 
-        aux = "".join(aux)
-        return aux
+        new = "".join(aux)
+        return new
