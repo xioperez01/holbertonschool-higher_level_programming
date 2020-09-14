@@ -9,18 +9,18 @@
 int is_palindrome(listint_t **head)
 {
 	listint_t *aux = *head;
-	int i = 0, j = 0, array[8192];
+	int i = 0, j = 0, array[3000];
 
 	if (head == NULL || *head == NULL)
 		return (1);
 
-	while (aux)
+	while (aux != NULL)
 	{
 		array[i] = aux->n;
 		aux = aux->next;
 		i++;
 	}
-	for (i = 0; i > 0; i--)
+	for (; i > 0; i--)
 	{
 		if (array[j] != array[i - 1])
 		{
