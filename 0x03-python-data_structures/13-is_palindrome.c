@@ -14,7 +14,7 @@ int is_palindrome(listint_t **head)
 	if (head == NULL || *head == NULL)
 		return (1);
 
-	while (aux != NULL)
+	while (aux)
 	{
 		array[i] = aux->n;
 		aux = aux->next;
