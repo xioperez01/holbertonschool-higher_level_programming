@@ -1,4 +1,4 @@
-# 0x05. Python - Excepciones :bangbang:	#
+# 0x05. Python - Exceptions :bangbang:	#
 ## Learning Objectives ##
 ### General ###
 * Why Python programming is awesome
