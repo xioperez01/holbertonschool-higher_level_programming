@@ -1,3 +1,8 @@
 #!/usr/bin/python3
+"""
+Module 0-square
+Define class Square
+"""
 class Square:
-    pass  #An empty block
+    """ Empty class"""
+    pass
