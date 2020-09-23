@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module 5-square
+Module 6-square
 Define class Square
 """
 
@@ -9,8 +9,8 @@ class Square:
     """Class for size square """
     def __init__(self, size=0, position=(0, 0)):
         """ Initializes square"""
-        self.__size = size
-        self.__position = position
+        self.size = size
+        self.position = position
 
     def area(self):
         """Calculating the area of the square"""
