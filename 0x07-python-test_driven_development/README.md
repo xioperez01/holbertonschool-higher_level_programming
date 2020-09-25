@@ -1,6 +1,6 @@
 # 0x07. Python - Test-driven development :question: :question: :thinking: #
-** Purpose:	Write automated tests as part of the documentation for a module **
-doctest tests source code by running examples embedded in the documentation and verifying that they produce the expected results.
+**Purpose:	Write automated tests as part of the documentation for a module**
+  doctest tests source code by running examples embedded in the documentation and verifying that they produce the expected results.
 It works by parsing the help text to find examples, running them, then comparing the output text against the expected value.
 ## Learning Objectives ##
 ### General ###
