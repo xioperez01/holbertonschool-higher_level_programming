@@ -13,7 +13,7 @@ def matrix_divided(matrix, div):
     if type(div) != int and type(div) != float:
         raise TypeError("div must be a number")
     if div == 0:
-        raise ZeroDivision("division by zero")
+        raise ZeroDivisionError("division by zero")
 
     for i in range(len(matrix)):
         if type(matrix[i]) != list:
