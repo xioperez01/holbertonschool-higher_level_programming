@@ -5,5 +5,5 @@ Define class Rectangle
 
 
 class Rectangle:
-        """ Empty class"""
-        pass
+    """ Empty class"""
+    pass
