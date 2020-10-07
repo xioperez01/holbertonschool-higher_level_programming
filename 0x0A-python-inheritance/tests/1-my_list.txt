@@ -37,18 +37,22 @@ Test list with no elements:
 
 Test type, isinstance, issubclass:
      >>> type(MyList())
-          <class '1-my_list.MyList'>
+     <class'1-my_list.MyList'>
 
      >>> isinstance(MyList, object)
-          True
+     True
 
      >>> isinstance(MyList, list)
-          False
+     Traceback (most recent call last):
+     ...
+     TypeError: isinstance() arg 2 must be a type or tuple of types
 
      >>> issubclass(MyList, list)
-          True
+     Traceback (most recent call last):
+     ...
+    TypeError: issubclass() arg 2 must be a class or tuple of classes
 
      >>> 'print_sorted' in dir(MyList)
-          True
+     True
 
 FAIL CASES:
