@@ -1,0 +1,4 @@
+# python3 -m doctest -v ./tests/[filename].txt
+
+First import method to test
+>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
