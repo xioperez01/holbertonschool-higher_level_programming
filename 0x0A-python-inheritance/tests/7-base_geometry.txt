@@ -1,4 +1,55 @@
-# python3 -m doctest -v ./tests/[filename].txt
+# run python3 -m doctest -v ./tests/7-base_geometry.txt
 
-First import method to test
+Import
 >>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+SUCCESS CASES:
+
+Test ints:
+     >>> bg = BaseGeometry()
+     >>> bg.integer_validator("Hi", 1)
+
+FAIL CASES:
+
+Test:
+     >>> bg = BaseGeometry()
+     >>> bg.area()
+     Traceback (most recent call last):
+     ...
+     Exception: area() is not implemented
+
+     >>> bg = BaseGeometry()
+     >>> bg.integer_validator("Hi", 0)
+     Traceback (most recent call last):
+     ...
+     ValueError: Hi must be greater than 0
+
+     >>> bg = BaseGeometry()
+     >>> bg.integer_validator("Hi", -1)
+     Traceback (most recent call last):
+     ...
+     ValueError: Hi must be greater than 0
+
+     >>> bg = BaseGeometry()
+     >>> bg.integer_validator("Hi", None)
+     Traceback (most recent call last):
+     ...
+     TypeError: Hi must be an integer
+
+     >>> bg = BaseGeometry()
+     >>> bg.integer_validator("Hi", "Wolrd")
+     Traceback (most recent call last):
+     ...
+     TypeError: Hi must be an integer
+
+     >>> bg = BaseGeometry()
+     >>> bg.integer_validator()
+     Traceback (most recent call last):
+     ...
+     TypeError: integer_validator() missing 2 required positional arguments: 'name' and 'value'
+
+     >>> bg = BaseGeometry()
+     >>> bg.integer_validator("Hi")
+     Traceback (most recent call last):
+     ...
+     TypeError: integer_validator() missing 1 required positional argument: 'value'
