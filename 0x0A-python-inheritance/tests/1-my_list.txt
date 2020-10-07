@@ -1,0 +1,38 @@
+# python3 -m doctest -v ./tests/<filename>.txt
+
+Import
+>>> MyList = __import__('1-my_list').MyList
+
+SUCCESS CASES:
+
+Test:
+	>>> my_list = MyList()
+	>>> my_list.append(1)
+	>>> my_list.append(0)
+	>>> my_list.append(-1)
+	>>> print(my_list)
+	[1, 0, -1]
+	>>> my_list.print_sorted()
+	[-1, 0, 1]
+	>>> print(my_list)
+	[1, 0, -1]
+
+Test list with only one element:
+     >>> my_list = MyList()
+     >>> my_list.append(1)
+     >>> print(my_list)
+     [1]
+     >>> my_list.print_sorted()
+     [1]
+     >>> print(my_list)
+     [1]
+
+Test list with no elements:
+     >>> my_list = MyList()
+     >>> print(my_list)
+     []
+     >>> my_list.print_sorted()
+     []
+FAIL CASES:
+
+Test:
