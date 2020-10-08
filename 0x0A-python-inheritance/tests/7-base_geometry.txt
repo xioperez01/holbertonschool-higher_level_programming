@@ -31,10 +31,10 @@ Test:
      ValueError: Hi must be greater than 0
 
      >>> bg = BaseGeometry()
-     >>> bg.integer_validator("age", None)
+     >>> bg.integer_validator("Hi", None)
      Traceback (most recent call last):
      ...
-     TypeError: age must be an integer
+     TypeError: Hi must be an integer
 
      >>> bg = BaseGeometry()
      >>> bg.integer_validator("Hi", "Wolrd")
@@ -74,6 +74,12 @@ Test:
 
      >>> bg = BaseGeometry()
      >>> bg.integer_validator("Hi", [3,4])
+     Traceback (most recent call last):
+     ...
+     TypeError: Hi must be an integer
+
+     >>> bg = BaseGeometry()
+     >>> bg.integer_validator("Hi", {3,4})
      Traceback (most recent call last):
      ...
      TypeError: Hi must be an integer
