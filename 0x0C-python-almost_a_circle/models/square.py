@@ -41,9 +41,9 @@ class Square(Rectangle):
                 self.x = args[2]
             if 3 in range(i):
                 self.y = args[3]
-            else:
-                for k, v in kwargs.items():
-                    setattr(self, k, v)
+        else:
+            for k, v in kwargs.items():
+                setattr(self, k, v)
 
     def to_dictionary(self):
         """ returns the dictionary representation of a Square """
