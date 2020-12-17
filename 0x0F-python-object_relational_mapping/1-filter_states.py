@@ -16,8 +16,7 @@ if __name__ == "__main__":
                          passwd=argv[2],
                          db=argv[3])
     cursor = db.cursor()
-    up = "SELECT * FROM states WHERE name LIKE '%N' ORDER BY states.id ASC"
-    cursor.execute(up)
+    cursor.execute("SELECT * FORM states WHERE name LIKE 'N%' ORDER BY ASC")
     for row in cursor.fetchall():
         if row[1][0] == 'N':
             print(row)
