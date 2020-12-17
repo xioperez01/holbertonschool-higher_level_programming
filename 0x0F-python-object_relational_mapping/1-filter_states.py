@@ -7,6 +7,7 @@ take 3 arguments: mysql username, mysql password and database name
 
 import MySQLdb
 from sys import argv
+
 if __name__ == "__main__":
 
     db = MySQLdb.connect(host="localhost",
@@ -15,7 +16,8 @@ if __name__ == "__main__":
                          passwd=argv[2],
                          db=argv[3])
     cursor = db.cursor()
-    cursor.execute("SEECT * FROM states WHERE name LIKE '%N' ORDER BY id ASC")
+    up = "SEECT * FROM states WHERE name LIKE '%N' ORDER BY states.id ASC"
+    cursor.execute(up)
     for row in cursor.fetchall():
         if row[1][0] == 'N':
             print(row)
