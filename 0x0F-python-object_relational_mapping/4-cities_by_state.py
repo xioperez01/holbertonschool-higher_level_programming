@@ -3,7 +3,7 @@
 Script that lists all cities from the database hbtn_0e_4_usa
 """
 
-import MySQL
+import MySQLdb
 from sys import argv
 
 if __name__ = "__main__":
