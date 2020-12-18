@@ -16,7 +16,7 @@ if __name__ = "__main__":
 
     cursor = cursor.db()
     cmd = "SELECT cities.id, cities.name, states.name\
-    FROM cities JOIN states ON states.id = state_id\
+    FROM cities JOIN states ON state_id = states.id\
     ORDER BY cities.id ASC"
     cursor.execute(cmd)
     list_ = cursor.fetchall()
