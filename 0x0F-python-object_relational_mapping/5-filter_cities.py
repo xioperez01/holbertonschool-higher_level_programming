@@ -17,7 +17,7 @@ if __name__ == "__main__":
 
     """Connect to a MySQL server."""
 
-    cursor = cursor.db()
+    cursor = db.cursor()
     cmd = """SELECT cities.name
                  FROM states
                  INNER JOIN cities ON states.id = cities.state_id
