@@ -15,9 +15,9 @@ if __name__ = "__main__":
                          db=argv[3])
 
     cursor = cursor.db()
-    cmd = "SELECT FROM cities.id, cities.name, states.name\
-        FROM cities JOIN states ON states.id = cities.state_id\
-        ORDER BY cities.id ASC"
+    cmd = "SELECT cities.id, cities.name, states.name\
+    FROM cities JOIN states ON states.id = state_id\
+    ORDER BY cities.id ASC"
     cursor.execute(cmd)
     list_ = cursor.fetchall()
     for row in list_:
