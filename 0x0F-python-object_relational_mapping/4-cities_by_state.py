@@ -15,12 +15,13 @@ if __name__ = "__main__":
                          passwd=argv[2],
                          db=argv[3])
 
-    cursor = cursor.db()
-    cmd = "SELECT cities.id, cities.name, states.name\
-FROM cities JOIN states ON state_id=states.id ORDER BY cities.id ASC"
+    cursor = db.cursor()
+    cmd = """SELECT cities.id, cities.name, states.name
+                 FROM states
+                 INNER JOIN cities ON states.id = cities.state_id
+                 ORDER BY cities.id ASC"""
     cursor.execute(cmd)
-    list_ = cursor.fetchall()
-    for row in list_:
+    for row in cursor.fetchall():
         print(row)
     cursor.close()
     db.close()
