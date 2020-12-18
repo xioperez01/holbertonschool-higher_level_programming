@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
 Script that lists all cities from the database hbtn_0e_4_usa
+take 3 arguments: mysql username, mysql password and database nam
 """
 
 import MySQLdb
@@ -16,10 +17,7 @@ if __name__ = "__main__":
 
     cursor = cursor.db()
     cmd = "SELECT cities.id, cities.name, states.name\
-    FROM cities\
-    JOIN states\
-    ON state_id=states.id\
-    ORDER BY cities.id ASC"
+FROM cities JOIN states ON state_id=states.id ORDER BY cities.id ASC"
     cursor.execute(cmd)
     list_ = cursor.fetchall()
     for row in list_:
