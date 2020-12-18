@@ -6,6 +6,8 @@ HTTP (Hypertext Transfer Protocol) is perhaps the most popular application proto
 
 HTTP is an asymmetric request-response client-server protocol as illustrated.  An HTTP client sends a request message to an HTTP server.  The server, in turn, returns a response message.  In other words, HTTP is a pull protocol, the client pulls information from the server (instead of server pushes information down to the client).
 
+![](https://github.com/xioperez01/holbertonschool-higher_level_programming/blob/master/0x10-python-network_0/HTTP.png)
+
 An **HTTP cookie** (web cookie, browser cookie) is a small piece of data that a server sends to the user's web browser. The browser may store it and send it back with later requests to the same server. Typically, it's used to tell if two requests came from the same browser — keeping a user logged-in, for example. It remembers stateful information for the stateless HTTP protocol.
 ## Learning Objectives
 * What a URL is
