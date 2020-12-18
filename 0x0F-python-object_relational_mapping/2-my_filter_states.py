@@ -16,13 +16,12 @@ if __name__ == "__main__":
                          passwd=argv[2],
                          db=argv[3])
 
-    cursor = db.cursor
-    up = """SELECT *
-            FROM states
-            WHERE name LIKE '{:s}' ORDER BY id ASC""".format(argv[4])
-    cursor.execute(up)
-    list_ = cursor.fetchall()
-    for row in list_:
+    cursor = db.cursor()
+    cmd = """SELECT *
+                 FROM states
+                 WHERE name LIKE '{:s}' ORDER BY id ASC""".format(argv[4])
+    cursor.execute(cmd)
+    for row in cursor.fetchall():
         if row[1] == argv[4]:
             print(row)
     cursor.close()
