@@ -17,7 +17,7 @@ if __name__ == "__main__":
                          db=argv[3])
 
     cursor = db.cursor()
-    cmd = "SELECT * FROM states WHERE name = %s ORDER BY states:id ASC"
+    cmd = "SELECT * FROM states WHERE name = %s ORDER BY states.id ASC"
     cursor.execute(cmd, (argv[4],))
     list_ = cursor.fetchall()
     for row in list_:
