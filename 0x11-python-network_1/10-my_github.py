@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 Module that takes a Github credentials (username and password)
 and uses the Github API to display the id
