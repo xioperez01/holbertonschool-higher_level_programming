@@ -8,6 +8,6 @@ the response header with requests and sys packages
 from sys import argv
 import requests
 
-if if __name__ == "__main__":
+if __name__ == "__main__":
     r = requests.get(argv[1])
     print(r.headers.get('X-Request-Id'))
