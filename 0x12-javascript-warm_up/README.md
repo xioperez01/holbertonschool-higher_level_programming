@@ -5,7 +5,7 @@
 # Javascript - Warm up
 [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics) is a programming or scripting language that allows you to implement complex functions on web pages, every time a web page does more than just sit there and display static information for you to see, it displays timely content updates, interactive maps , 2D / 3D graphics animation, video player scrolling, etc., you can bet that JavaScript is probably involved.
 
- <img src="https://github.com/xioperez01/holbertonschool-higher_level_programming/blob/master/0x12-javascript-warm_up/JavaScript_meme.png" alt="Meme" style="border: 1px solid #ddd; border-radius: 4px; display:block; margin:auto;">
+ <img src="https://github.com/xioperez01/holbertonschool-higher_level_programming/blob/master/0x12-javascript-warm_up/JavaScript_meme.png" alt="Meme"">
 
 ## Learning Objectives
 * How to run a Javascript script
