@@ -10,7 +10,7 @@ request(url, function (error, response, body) {
     for (const i in body) {
       const chars = body[i].characters;
       for (const j in chars) {
-        if (chars[j] === 'https://swapi-api.hbtn.io/api/people/18/') {
+        if (chars[j].includes('18')) {
           count++;
         }
       }
