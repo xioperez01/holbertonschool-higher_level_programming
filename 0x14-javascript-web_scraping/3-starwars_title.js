@@ -5,10 +5,8 @@ const request = require('request');
 request(url, function (error, response, body) {
   if (error) {
     console.error(error);
-  } /*else if (response.statusCode !== 200) {
-    console.log(response.statusCode);
-  }*/ else {
+  } else {
     body = JSON.parse(body);
-    console.log(body['title']);
+    console.log(body.title);
   }
 });
