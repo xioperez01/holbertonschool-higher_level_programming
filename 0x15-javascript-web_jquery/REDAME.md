@@ -27,7 +27,8 @@
 
 ## File description
 
-* 0-script.js: script that updates the text color of the HTML tag HEADER to red (#FF0000):
+* 0-script.js: script that updates the text color of the HTML tag HEADER to red (#FF0000)
+* 1-script.js: script that updates the text color of the HTML tag HEADER to red (#FF0000). Use the jQuery API
 
 ## Environment
 
