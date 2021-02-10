@@ -32,6 +32,7 @@
 * 2-script: script that updates the text color of the HTML tag HEADER to red (#FF0000) when the user clicks on the tag DIV#red_header
 * 3-script: script that adds the class red to the HTML tag HEADER when the user clicks on the tag DIV#red_header
 * 4-srcipt: script that toggles the class of the HTML tag HEADER when the user clicks on the tag DIV#toggle_header
+* 5-script: script that adds a LI element to a list when the user clicks on the tag DIV#add_item
 
 ## Environment
 
