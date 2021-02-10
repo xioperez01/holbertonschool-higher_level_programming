@@ -25,6 +25,10 @@
 * How to listen/bind to DOM events
 * How to listen/bind to user events
 
+## File description
+
+* 0-script.js: script that updates the text color of the HTML tag HEADER to red (#FF0000):
+
 ## Environment
 
 * Languages: JavaScript, jQuery version 3.x
@@ -34,4 +38,3 @@
 ## Autors
 
  Angie Pérez [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/xiommyperez)
-
