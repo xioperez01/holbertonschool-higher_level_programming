@@ -27,14 +27,15 @@
 
 ## File description
 
-* 0-script.js: Updates the text color of the HTML tag HEADER to red (#FF0000)
-* 1-script.js: Updates the text color of the HTML tag HEADER to red (#FF0000). Use the jQuery API
-* 2-script: Updates the text color of the HTML tag HEADER to red (#FF0000) when the user clicks on the tag DIV#red_header
-* 3-script: script that adds the class red to the HTML tag HEADER when the user clicks on the tag DIV#red_header
-* 4-srcipt: script that toggles the class of the HTML tag HEADER when the user clicks on the tag DIV#toggle_header
-* 5-script: script that adds a LI element to a list when the user clicks on the tag DIV#add_item
-* 6-script: Updates the text of the HTML tag HEADER to “New Header!!!” when the user clicks on DIV#update_header
-* 7-script: Fetches the name from https://swapi-api.hbtn.io/api/people/5/?format=json and display it the HTML tag DIV#character
+* 0-script.js: Updates the text color of the HTML tag **HEADER** to red (#FF0000)
+* 1-script.js: Updates the text color of the HTML tag **HEADER** to red (#FF0000). Use the jQuery API
+* 2-script: Updates the text color of the HTML tag **HEADER** to red (#FF0000) when the user clicks on the tag **DIV#red_header**
+* 3-script: script that adds the class red to the HTML tag **HEADER** when the user clicks on the tag **DIV#red_header**
+* 4-srcipt: script that toggles the class of the HTML tag **HEADER** when the user clicks on the tag **DIV#toggle_header**
+* 5-script: script that adds a LI element to a list when the user clicks on the tag **DIV#add_item**
+* 6-script: Updates the text of the HTML tag **HEADER** to *“New Header!!!”* when the user clicks on **DIV#update_header**
+* 7-script: Fetches the name from https://swapi-api.hbtn.io/api/people/5/?format=json and display it the HTML tag **DIV#character**
+* 8-script: Fetches and lists the title for all movies by using https://swapi-api.hbtn.io/api/films/?format=json and list it in the HTML tag **UL#list_movies**
 
 The name must be displayed in the HTML tag DIV#character
 
