@@ -34,6 +34,9 @@
 * 4-srcipt: script that toggles the class of the HTML tag HEADER when the user clicks on the tag DIV#toggle_header
 * 5-script: script that adds a LI element to a list when the user clicks on the tag DIV#add_item
 * 6-script: Updates the text of the HTML tag HEADER to “New Header!!!” when the user clicks on DIV#update_header
+* 7-script: Fetches the name from https://swapi-api.hbtn.io/api/people/5/?format=json and display it the HTML tag DIV#character
+
+The name must be displayed in the HTML tag DIV#character
 
 ## Environment
 
