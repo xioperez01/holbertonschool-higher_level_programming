@@ -27,12 +27,13 @@
 
 ## File description
 
-* 0-script.js: script that updates the text color of the HTML tag HEADER to red (#FF0000)
-* 1-script.js: script that updates the text color of the HTML tag HEADER to red (#FF0000). Use the jQuery API
-* 2-script: script that updates the text color of the HTML tag HEADER to red (#FF0000) when the user clicks on the tag DIV#red_header
+* 0-script.js: Updates the text color of the HTML tag HEADER to red (#FF0000)
+* 1-script.js: Updates the text color of the HTML tag HEADER to red (#FF0000). Use the jQuery API
+* 2-script: Updates the text color of the HTML tag HEADER to red (#FF0000) when the user clicks on the tag DIV#red_header
 * 3-script: script that adds the class red to the HTML tag HEADER when the user clicks on the tag DIV#red_header
 * 4-srcipt: script that toggles the class of the HTML tag HEADER when the user clicks on the tag DIV#toggle_header
 * 5-script: script that adds a LI element to a list when the user clicks on the tag DIV#add_item
+* 6-script: Updates the text of the HTML tag HEADER to “New Header!!!” when the user clicks on DIV#update_header
 
 ## Environment
 
